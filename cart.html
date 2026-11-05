@@ -1,41 +1,16 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cart — Atelier Vérité</title>
-  <meta name="description" content="Review selected Atelier Vérité products before checkout.">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="min-h-screen bg-stone-50 text-stone-950 antialiased">
-  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2">Skip to content</a>
-  <header class="border-b border-stone-200 bg-white">
-    <nav class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 lg:flex-row lg:items-center lg:justify-between" aria-label="Primary">
-      <a href="index.html" class="text-xl font-semibold tracking-[0.2em]">ATELIER VÉRITÉ</a>
-      <form class="w-full lg:max-w-md" role="search">
-        <label class="sr-only" for="site-search">Search products</label>
-        <input id="site-search" name="q" type="search" placeholder="Search the collection" class="w-full rounded-full border border-stone-300 bg-stone-50 px-4 py-2 text-sm outline-none focus:border-stone-950">
-      </form>
-      <div class="flex items-center gap-4 text-sm">
-        <a href="catalog.html" class="hover:underline">Catalog</a>
-        <a href="cart.html" class="font-medium underline">Cart</a>
-        <a href="#" class="hover:underline">Account</a>
-      </div>
-    </nav>
-  </header>
-  <main id="main-content">
-    <section class="mx-auto max-w-7xl px-4 py-12" aria-labelledby="cart-title">
-      <p class="mb-3 text-sm uppercase tracking-[0.24em] text-stone-500">Cart</p>
-      <h1 id="cart-title" class="text-4xl font-semibold tracking-tight">Cart view foundation</h1>
-      <p class="mt-4 max-w-2xl text-stone-600">The Cart feature branch will add the required full-page cart, three sample products and order summary.</p>
-    </section>
-  </main>
-  <footer class="mt-16 border-t border-stone-200 bg-stone-950 text-stone-100">
-    <div class="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:grid-cols-2 lg:grid-cols-3">
-      <section><h2 class="font-semibold">Categories</h2><ul class="mt-3 space-y-2 text-sm text-stone-300"><li><a href="catalog.html">Footwear</a></li><li><a href="catalog.html">Shirts</a></li><li><a href="catalog.html">Pants</a></li><li><a href="catalog.html">Accessories</a></li></ul></section>
-      <section><h2 class="font-semibold">Legal</h2><ul class="mt-3 space-y-2 text-sm text-stone-300"><li><a href="#">Terms and conditions</a></li><li><a href="#">Privacy policy</a></li><li><a href="#">About the brand</a></li></ul></section>
-      <section><h2 class="font-semibold">Contact</h2><p class="mt-3 text-sm text-stone-300">bonjour@atelier-verite.example</p></section>
-    </div>
-  </footer>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sample Cart — Atelier Vérité</title><meta name="description" content="Review three fictional Atelier Vérité sample items, transparent line totals and an illustrative order summary.">
+<link rel="stylesheet" href="assets/home/home.css"><link rel="stylesheet" href="assets/storefront.css">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Organization","name":"Atelier Vérité","description":"Fictional contemporary French-fashion brand for an academic storefront prototype."}]</script>
+</head><body class="storefront page-cart">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header class="site-header"><nav class="header-grid" aria-label="Primary"><div class="primary-nav"><a href="catalog.html">Catalog</a><a href="index.html#new-arrivals">New arrivals</a></div><a class="brand" href="index.html">ATELIER VÉRITÉ</a><div class="header-tools"><details class="account"><summary>Account</summary><div class="account-panel">Static prototype. No sign-in is connected.</div></details><a href="cart.html">Cart</a></div><form class="search-form" action="catalog.html" method="get" role="search"><label class="sr-only" for="site-search">Search products</label><input id="site-search" name="q" type="search" placeholder="Search the collection"><button type="submit">Search</button></form></nav></header>
+<main id="main-content"><div class="store-hero compact-hero"><div class="store-shell store-hero-inner"><div><span class="eyebrow">Atelier Vérité / 03 — Transaction study</span><h1>Your selection.</h1></div><p>Three sample line items. One complete, transparent order summary.</p></div></div>
+<section class="store-shell cart-section px-4 sm:px-8 lg:px-12" aria-label="Sample cart"><div class="section-line"><div><span class="eyebrow">Review / 03 items</span><h2 class="section-title">Sample cart</h2></div><p>Illustrative order — not a live basket</p></div><div class="cart-layout"><div class="cart-lines"><article class="cart-item"><div class="cart-thumbnail"><img class="" src="assets/home/products/av-fw-001-sillage-loafer.webp" alt="Black low-profile loafer with a clean rounded toe" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="cart-item-title"><span class="eyebrow">Footwear / AV-FW-001</span><h2>Sillage Loafer</h2><span>Sample item</span></div><div class="cart-figures"><div><span>Unit price</span><strong>€320</strong></div><div><span>Quantity</span><strong>01</strong></div><div><span>Line total</span><strong>€320</strong></div></div></article>
+<article class="cart-item"><div class="cart-thumbnail"><img class="" src="assets/home/products/av-sh-001-chemise-epure.webp" alt="White oversized button-up shirt with a clean collar" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="cart-item-title"><span class="eyebrow">Shirts / AV-SH-001</span><h2>Chemise Épure</h2><span>Sample item</span></div><div class="cart-figures"><div><span>Unit price</span><strong>€185</strong></div><div><span>Quantity</span><strong>02</strong></div><div><span>Line total</span><strong>€370</strong></div></div></article>
+<article class="cart-item"><div class="cart-thumbnail"><img class="" src="assets/home/products/av-ac-001-sac-cadre.webp" alt="Structured dark rectangular shoulder bag with a narrow strap" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="cart-item-title"><span class="eyebrow">Accessories / AV-AC-001</span><h2>Sac Cadre</h2><span>Sample item</span></div><div class="cart-figures"><div><span>Unit price</span><strong>€460</strong></div><div><span>Quantity</span><strong>01</strong></div><div><span>Line total</span><strong>€460</strong></div></div></article><a class="back-link" href="catalog.html">← Continue shopping</a></div><aside class="order-summary" aria-labelledby="summary-title"><span class="eyebrow">Order study / 01</span><h2 id="summary-title">Summary</h2><dl><div><dt>Subtotal</dt><dd>€1,150</dd></div><div><dt>Illustrative tax (20%)</dt><dd>€230</dd></div><div class="summary-total"><dt>Total</dt><dd>€1,380</dd></div></dl><a class="primary-action" href="checkout.html">Purchase <span aria-hidden="true">↗</span></a><p class="prototype-note">The 20% tax is an arithmetic illustration, not a tax-policy claim. No transaction is processed.</p></aside></div></section></main>
+<footer class="site-footer"><div class="footer-shell"><div class="footer-grid"><div><p class="footer-brand">ATELIER VÉRITÉ</p><p>A fictional contemporary French-fashion storefront created as a static academic prototype.</p></div><section aria-labelledby="footer-categories"><h2 id="footer-categories">Categories</h2><ul><li><a href="catalog.html">Footwear</a></li><li><a href="catalog.html">Shirts</a></li><li><a href="catalog.html">Pants</a></li><li><a href="catalog.html">Accessories</a></li></ul></section><section aria-labelledby="footer-legal"><h2 id="footer-legal">Legal</h2><ul><li><a href="#footer-legal">Terms and conditions</a></li><li><a href="#footer-legal">Privacy policy</a></li><li><a href="#footer-legal">About the brand</a></li></ul></section><section aria-labelledby="footer-contact"><h2 id="footer-contact">Contact</h2><p><a href="mailto:bonjour@atelier-verite.example">bonjour@atelier-verite.example</a></p></section></div><p class="footer-bottom">Static academic prototype. No live customer service or payment processing is connected.</p></div></footer>
+
+</body></html>
