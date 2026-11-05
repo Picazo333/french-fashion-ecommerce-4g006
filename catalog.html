@@ -1,41 +1,102 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catalog — Atelier Vérité</title>
-  <meta name="description" content="Browse the Atelier Vérité fashion catalog by category and size.">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="min-h-screen bg-stone-50 text-stone-950 antialiased">
-  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2">Skip to content</a>
-  <header class="border-b border-stone-200 bg-white">
-    <nav class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 lg:flex-row lg:items-center lg:justify-between" aria-label="Primary">
-      <a href="index.html" class="text-xl font-semibold tracking-[0.2em]">ATELIER VÉRITÉ</a>
-      <form class="w-full lg:max-w-md" role="search">
-        <label class="sr-only" for="site-search">Search products</label>
-        <input id="site-search" name="q" type="search" placeholder="Search the collection" class="w-full rounded-full border border-stone-300 bg-stone-50 px-4 py-2 text-sm outline-none focus:border-stone-950">
-      </form>
-      <div class="flex items-center gap-4 text-sm">
-        <a href="catalog.html" class="font-medium underline">Catalog</a>
-        <a href="cart.html" class="hover:underline">Cart</a>
-        <a href="#" class="hover:underline">Account</a>
-      </div>
-    </nav>
-  </header>
-  <main id="main-content">
-    <section class="mx-auto max-w-7xl px-4 py-12" aria-labelledby="catalog-title">
-      <p class="mb-3 text-sm uppercase tracking-[0.24em] text-stone-500">Catalog</p>
-      <h1 id="catalog-title" class="text-4xl font-semibold tracking-tight">Catalog view foundation</h1>
-      <p class="mt-4 max-w-2xl text-stone-600">The Catalog feature branch will add category and size filters plus the required 20-product responsive grid.</p>
-    </section>
-  </main>
-  <footer class="mt-16 border-t border-stone-200 bg-stone-950 text-stone-100">
-    <div class="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:grid-cols-2 lg:grid-cols-3">
-      <section><h2 class="font-semibold">Categories</h2><ul class="mt-3 space-y-2 text-sm text-stone-300"><li><a href="catalog.html">Footwear</a></li><li><a href="catalog.html">Shirts</a></li><li><a href="catalog.html">Pants</a></li><li><a href="catalog.html">Accessories</a></li></ul></section>
-      <section><h2 class="font-semibold">Legal</h2><ul class="mt-3 space-y-2 text-sm text-stone-300"><li><a href="#">Terms and conditions</a></li><li><a href="#">Privacy policy</a></li><li><a href="#">About the brand</a></li></ul></section>
-      <section><h2 class="font-semibold">Contact</h2><p class="mt-3 text-sm text-stone-300">bonjour@atelier-verite.example</p></section>
-    </div>
-  </footer>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catalog — Atelier Vérité</title><meta name="description" content="Explore the 20 canonical fictional references in the Atelier Vérité Industrial Maison Rouge collection.">
+<link rel="stylesheet" href="assets/home/home.css"><link rel="stylesheet" href="assets/storefront.css">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Organization","name":"Atelier Vérité","description":"Fictional contemporary French-fashion brand for an academic storefront prototype."},{"@type":"ItemList","name":"Atelier Vérité canonical catalog","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Sillage Loafer","sku":"AV-FW-001","category":"Footwear"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Rivage Sneaker","sku":"AV-FW-002","category":"Footwear"}},{"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Orée Ankle Boot","sku":"AV-FW-003","category":"Footwear"}},{"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Élan Mule","sku":"AV-FW-004","category":"Footwear"}},{"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Ligne Derby","sku":"AV-FW-005","category":"Footwear"}},{"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Chemise Épure","sku":"AV-SH-001","category":"Shirts"}},{"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Chemise Rive","sku":"AV-SH-002","category":"Shirts"}},{"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Surchemise Atelier","sku":"AV-SH-003","category":"Shirts"}},{"@type":"ListItem","position":9,"item":{"@type":"Product","name":"Blouse Lueur","sku":"AV-SH-004","category":"Shirts"}},{"@type":"ListItem","position":10,"item":{"@type":"Product","name":"Chemise Trait","sku":"AV-SH-005","category":"Shirts"}},{"@type":"ListItem","position":11,"item":{"@type":"Product","name":"Pantalon Serein","sku":"AV-PT-001","category":"Pants"}},{"@type":"ListItem","position":12,"item":{"@type":"Product","name":"Pantalon Arc","sku":"AV-PT-002","category":"Pants"}},{"@type":"ListItem","position":13,"item":{"@type":"Product","name":"Jean Rive","sku":"AV-PT-003","category":"Pants"}},{"@type":"ListItem","position":14,"item":{"@type":"Product","name":"Pantalon Plissé","sku":"AV-PT-004","category":"Pants"}},{"@type":"ListItem","position":15,"item":{"@type":"Product","name":"Pantalon Studio","sku":"AV-PT-005","category":"Pants"}},{"@type":"ListItem","position":16,"item":{"@type":"Product","name":"Sac Cadre","sku":"AV-AC-001","category":"Accessories"}},{"@type":"ListItem","position":17,"item":{"@type":"Product","name":"Sac Demi-Lune","sku":"AV-AC-002","category":"Accessories"}},{"@type":"ListItem","position":18,"item":{"@type":"Product","name":"Ceinture Ligne","sku":"AV-AC-003","category":"Accessories"}},{"@type":"ListItem","position":19,"item":{"@type":"Product","name":"Écharpe Brume","sku":"AV-AC-004","category":"Accessories"}},{"@type":"ListItem","position":20,"item":{"@type":"Product","name":"Pochette Atelier","sku":"AV-AC-005","category":"Accessories"}}]}]</script>
+</head><body class="storefront page-catalog">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header class="site-header"><nav class="header-grid" aria-label="Primary"><div class="primary-nav"><a href="catalog.html">Catalog</a><a href="index.html#new-arrivals">New arrivals</a></div><a class="brand" href="index.html">ATELIER VÉRITÉ</a><div class="header-tools"><details class="account"><summary>Account</summary><div class="account-panel">Static prototype. No sign-in is connected.</div></details><a href="cart.html">Cart</a></div><form class="search-form" action="catalog.html" method="get" role="search"><label class="sr-only" for="site-search">Search products</label><input id="site-search" name="q" type="search" placeholder="Search the collection"><button type="submit">Search</button></form></nav></header>
+<main id="main-content"><div class="store-hero"><div class="store-shell store-hero-inner"><div><span class="eyebrow">Atelier Vérité / 01 — Collection index</span><h1>Form follows<br><em>intention.</em></h1></div><p>The twenty canonical references of the Industrial Maison Rouge study. A collection defined by shape, proportion and restraint.</p></div></div>
+<section class="store-section store-shell catalog-section px-4 sm:px-8 lg:px-12" aria-label="Browse catalog">
+<div class="section-line"><div><span class="eyebrow">Browse / 20 references</span><h2 class="section-title">The collection</h2></div><p>Four disciplines. One vocabulary.</p></div>
+<form id="catalog-filters" class="filter-bar" role="search"><label>Category<select id="category-filter" name="category"><option value="all">All categories</option><option>Footwear</option><option>Shirts</option><option>Pants</option><option>Accessories</option></select></label><label>Size<select id="size-filter" name="size"><option value="all">All sizes</option><optgroup label="Apparel"><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option></optgroup><optgroup label="Footwear / EU"><option>36</option><option>37</option><option>38</option><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>45</option></optgroup><option value="OS">One size</option></select></label><div class="filter-count" aria-live="polite"><span id="result-count">20</span> references</div><button class="button-reset" type="reset">Reset filters</button></form>
+<p class="prototype-note">Filters apply locally to these 20 fictional product references; no live inventory or search service is connected.</p>
+<div id="catalog-grid" class="catalog-grid grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-6"><article class="catalog-card" data-category="Footwear" data-sizes="36,37,38,39,40,41,42" data-search="sillage loafer av-fw-001 footwear">
+<div class="product-photo"><img class="" src="assets/home/products/av-fw-001-sillage-loafer.webp" alt="Black low-profile loafer with a clean rounded toe" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Footwear</span><span class="card-sku">AV-FW-001</span></div>
+<h2>Sillage Loafer</h2><p class="card-description">A low-profile loafer with a clean vamp and softly structured shape.</p><div class="card-bottom"><strong>€320</strong><a href="product.html" class="card-link">View product <span aria-hidden="true">↗</span></a></div></article>
+<article class="catalog-card" data-category="Footwear" data-sizes="36,37,38,39,40,41,42,43,44" data-search="rivage sneaker av-fw-002 footwear">
+<div class="product-photo"><img class="" src="assets/home/products/av-fw-002-rivage-sneaker.webp" alt="Neutral low-top sneaker with tonal paneling" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Footwear</span><span class="card-sku">AV-FW-002</span></div>
+<h2>Rivage Sneaker</h2><p class="card-description">A quiet low-top sneaker balancing textile panels with tonal suede.</p><div class="card-bottom"><strong>€210</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Footwear" data-sizes="36,37,38,39,40,41,42" data-search="orée ankle boot av-fw-003 footwear">
+<div class="product-photo"><img class="" src="assets/home/products/av-fw-003-oree-ankle-boot.webp" alt="Dark ankle boot with a straight shaft and simple sole" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Footwear</span><span class="card-sku">AV-FW-003</span></div>
+<h2>Orée Ankle Boot</h2><p class="card-description">A minimal ankle boot with a straight shaft and grounded sole.</p><div class="card-bottom"><strong>€390</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Footwear" data-sizes="36,37,38,39,40,41" data-search="élan mule av-fw-004 footwear">
+<div class="product-photo"><img class="" src="assets/store/products/av-fw-004-elan-mule.webp" alt="Dark open-back mule with a squared toe" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Footwear</span><span class="card-sku">AV-FW-004</span></div>
+<h2>Élan Mule</h2><p class="card-description">An open-back mule with a squared profile and restrained finish.</p><div class="card-bottom"><strong>€240</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Footwear" data-sizes="39,40,41,42,43,44,45" data-search="ligne derby av-fw-005 footwear">
+<div class="product-photo"><img class="" src="assets/store/products/av-fw-005-ligne-derby.webp" alt="Black lace-up derby shoe with a broad rounded toe" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Footwear</span><span class="card-sku">AV-FW-005</span></div>
+<h2>Ligne Derby</h2><p class="card-description">A pared-back derby with a broad toe and low-contrast construction.</p><div class="card-bottom"><strong>€340</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Shirts" data-sizes="XS,S,M,L,XL" data-search="chemise épure av-sh-001 shirts">
+<div class="product-photo"><img class="" src="assets/home/products/av-sh-001-chemise-epure.webp" alt="White oversized button-up shirt with a clean collar" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Shirts</span><span class="card-sku">AV-SH-001</span></div>
+<h2>Chemise Épure</h2><p class="card-description">A crisp oversized shirt with a long line and clean collar.</p><div class="card-bottom"><strong>€185</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Shirts" data-sizes="XS,S,M,L,XL" data-search="chemise rive av-sh-002 shirts">
+<div class="product-photo"><img class="" src="assets/home/products/av-sh-002-chemise-rive.webp" alt="Light neutral relaxed shirt with a straight hem" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Shirts</span><span class="card-sku">AV-SH-002</span></div>
+<h2>Chemise Rive</h2><p class="card-description">A relaxed collared shirt with a soft drape and straight hem.</p><div class="card-bottom"><strong>€195</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Shirts" data-sizes="XS,S,M,L,XL" data-search="surchemise atelier av-sh-003 shirts">
+<div class="product-photo"><img class="" src="assets/home/products/av-sh-003-surchemise-atelier.webp" alt="Structured neutral overshirt with two patch pockets" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Shirts</span><span class="card-sku">AV-SH-003</span></div>
+<h2>Surchemise Atelier</h2><p class="card-description">A structured overshirt with patch pockets and a workwear-influenced line.</p><div class="card-bottom"><strong>€230</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Shirts" data-sizes="XS,S,M,L" data-search="blouse lueur av-sh-004 shirts">
+<div class="product-photo"><img class="" src="assets/store/products/av-sh-004-blouse-lueur.webp" alt="Fluid ivory collarless blouse with soft neckline gathers" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Shirts</span><span class="card-sku">AV-SH-004</span></div>
+<h2>Blouse Lueur</h2><p class="card-description">A fluid collarless blouse with a softly gathered neckline.</p><div class="card-bottom"><strong>€210</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Shirts" data-sizes="XS,S,M,L,XL" data-search="chemise trait av-sh-005 shirts">
+<div class="product-photo"><img class="" src="assets/store/products/av-sh-005-chemise-trait.webp" alt="Straight striped button-up shirt with crisp cuffs" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Shirts</span><span class="card-sku">AV-SH-005</span></div>
+<h2>Chemise Trait</h2><p class="card-description">A straight striped shirt with precise cuffs and restrained proportions.</p><div class="card-bottom"><strong>€205</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Pants" data-sizes="XS,S,M,L,XL" data-search="pantalon serein av-pt-001 pants">
+<div class="product-photo"><img class="" src="assets/home/products/av-pt-001-pantalon-serein.webp" alt="Dark relaxed tailored pants with a high rise and front pleat" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Pants</span><span class="card-sku">AV-PT-001</span></div>
+<h2>Pantalon Serein</h2><p class="card-description">A relaxed tailored pant with a high rise and soft front pleat.</p><div class="card-bottom"><strong>€240</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Pants" data-sizes="XS,S,M,L,XL" data-search="pantalon arc av-pt-002 pants">
+<div class="product-photo"><img class="" src="assets/store/products/av-pt-002-pantalon-arc.webp" alt="Neutral curved-leg pants with a clean waistband" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Pants</span><span class="card-sku">AV-PT-002</span></div>
+<h2>Pantalon Arc</h2><p class="card-description">A curved-leg cotton pant with a compact waist and fuller volume.</p><div class="card-bottom"><strong>€225</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Pants" data-sizes="XS,S,M,L,XL" data-search="jean rive av-pt-003 pants">
+<div class="product-photo"><img class="" src="assets/home/products/av-pt-003-jean-rive.webp" alt="Straight dark-wash jeans with a clean hem" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Pants</span><span class="card-sku">AV-PT-003</span></div>
+<h2>Jean Rive</h2><p class="card-description">A straight dark-wash jean with minimal finishing and a clean hem.</p><div class="card-bottom"><strong>€190</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Pants" data-sizes="XS,S,M,L" data-search="pantalon plissé av-pt-004 pants">
+<div class="product-photo"><img class="" src="assets/store/products/av-pt-004-pantalon-plisse.webp" alt="Fluid dark pleated pants with fine vertical texture" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Pants</span><span class="card-sku">AV-PT-004</span></div>
+<h2>Pantalon Plissé</h2><p class="card-description">A fluid pleated pant with fine vertical texture and an easy line.</p><div class="card-bottom"><strong>€255</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Pants" data-sizes="XS,S,M,L,XL" data-search="pantalon studio av-pt-005 pants">
+<div class="product-photo"><img class="" src="assets/store/products/av-pt-005-pantalon-studio.webp" alt="Straight cropped pants with a clean flat front" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Pants</span><span class="card-sku">AV-PT-005</span></div>
+<h2>Pantalon Studio</h2><p class="card-description">A straight studio pant with a flat front and slightly cropped length.</p><div class="card-bottom"><strong>€235</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Accessories" data-sizes="OS" data-search="sac cadre av-ac-001 accessories">
+<div class="product-photo"><img class="" src="assets/home/products/av-ac-001-sac-cadre.webp" alt="Structured dark rectangular shoulder bag with a narrow strap" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Accessories</span><span class="card-sku">AV-AC-001</span></div>
+<h2>Sac Cadre</h2><p class="card-description">A structured shoulder bag with a rectangular body and narrow strap.</p><div class="card-bottom"><strong>€460</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Accessories" data-sizes="OS" data-search="sac demi-lune av-ac-002 accessories">
+<div class="product-photo"><img class="" src="assets/home/products/av-ac-002-sac-demi-lune.webp" alt="Dark curved shoulder bag with a low rounded profile" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Accessories</span><span class="card-sku">AV-AC-002</span></div>
+<h2>Sac Demi-Lune</h2><p class="card-description">A curved shoulder bag with a low profile and softly rounded base.</p><div class="card-bottom"><strong>€420</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Accessories" data-sizes="S,M,L" data-search="ceinture ligne av-ac-003 accessories">
+<div class="product-photo"><img class="" src="assets/store/products/av-ac-003-ceinture-ligne.webp" alt="Narrow dark belt with a simple rectangular buckle" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Accessories</span><span class="card-sku">AV-AC-003</span></div>
+<h2>Ceinture Ligne</h2><p class="card-description">A narrow belt with a plain rectangular buckle and clean edge finish.</p><div class="card-bottom"><strong>€145</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Accessories" data-sizes="OS" data-search="écharpe brume av-ac-004 accessories">
+<div class="product-photo"><img class="" src="assets/store/products/av-ac-004-echarpe-brume.webp" alt="Long neutral scarf with short fringe" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Accessories</span><span class="card-sku">AV-AC-004</span></div>
+<h2>Écharpe Brume</h2><p class="card-description">A long soft scarf with a plain weave and subtle fringe.</p><div class="card-bottom"><strong>€160</strong><span class="reference-only">Catalog reference</span></div></article>
+<article class="catalog-card" data-category="Accessories" data-sizes="OS" data-search="pochette atelier av-ac-005 accessories">
+<div class="product-photo"><img class="" src="assets/store/products/av-ac-005-pochette-atelier.webp" alt="Slim dark zip pouch with a flat rectangular profile" width="1122" height="1402" loading="lazy" decoding="async"></div><div class="card-meta"><span class="card-category">Accessories</span><span class="card-sku">AV-AC-005</span></div>
+<h2>Pochette Atelier</h2><p class="card-description">A slim zip pouch with a flat profile and discreet pull.</p><div class="card-bottom"><strong>€195</strong><span class="reference-only">Catalog reference</span></div></article></div><p id="empty-message" class="empty-message" hidden>No references match those filters. Choose another category or size.</p>
+<div class="catalog-note"><strong>Product detail demonstration:</strong> Sillage Loafer is the single fully detailed product view required for this static exercise. The other references are intentionally catalog-only rather than linking to incorrect product details.</div>
+</section></main>
+<footer class="site-footer"><div class="footer-shell"><div class="footer-grid"><div><p class="footer-brand">ATELIER VÉRITÉ</p><p>A fictional contemporary French-fashion storefront created as a static academic prototype.</p></div><section aria-labelledby="footer-categories"><h2 id="footer-categories">Categories</h2><ul><li><a href="catalog.html">Footwear</a></li><li><a href="catalog.html">Shirts</a></li><li><a href="catalog.html">Pants</a></li><li><a href="catalog.html">Accessories</a></li></ul></section><section aria-labelledby="footer-legal"><h2 id="footer-legal">Legal</h2><ul><li><a href="#footer-legal">Terms and conditions</a></li><li><a href="#footer-legal">Privacy policy</a></li><li><a href="#footer-legal">About the brand</a></li></ul></section><section aria-labelledby="footer-contact"><h2 id="footer-contact">Contact</h2><p><a href="mailto:bonjour@atelier-verite.example">bonjour@atelier-verite.example</a></p></section></div><p class="footer-bottom">Static academic prototype. No live customer service or payment processing is connected.</p></div></footer>
+<script>
+(() => {
+  const form=document.getElementById('catalog-filters');
+  const category=document.getElementById('category-filter');
+  const size=document.getElementById('size-filter');
+  const cards=[...document.querySelectorAll('.catalog-card')];
+  const query=new URLSearchParams(location.search).get('q')?.trim().toLowerCase()||'';
+  const count=document.getElementById('result-count');
+  const empty=document.getElementById('empty-message');
+  const apply=()=>{
+    let visible=0;
+    cards.forEach(card=>{
+      const ok=(category.value==='all'||card.dataset.category===category.value)
+        &&(size.value==='all'||card.dataset.sizes.split(',').includes(size.value))
+        &&(!query||card.dataset.search.includes(query));
+      card.hidden=!ok;if(ok)visible++;
+    });
+    count.textContent=String(visible);empty.hidden=visible!==0;
+  };
+  form.addEventListener('input',apply);
+  form.addEventListener('reset',()=>requestAnimationFrame(apply));
+  apply();
+})();
+</script>
+</body></html>

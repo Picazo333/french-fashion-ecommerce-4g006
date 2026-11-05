@@ -1,0 +1,118 @@
+{
+  "project": "4G-006",
+  "asset_status": "VISUAL_APPROVED_BY_USER",
+  "base_repository_commit": "d43dc775a34159d480582e02bc4d30a04c7f3e9c",
+  "notes": "New independent downstream supplemental assets; user visually approved all 10 on 2026-11-05. Original frozen EXP-01 assets unchanged. AI-generated fictional product concepts.",
+  "assets": [
+    {
+      "sku": "AV-FW-004",
+      "asset_path": "assets/store/products/av-fw-004-elan-mule.webp",
+      "source_filename": "mule_élan_sobre_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 134506,
+      "sha256": "77766001dffc926fc55bdf7fe301be0b52ae4101d515d3a50d2a225b9f1414c4"
+    },
+    {
+      "sku": "AV-FW-005",
+      "asset_path": "assets/store/products/av-fw-005-ligne-derby.webp",
+      "source_filename": "derby_negro_sobre_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 161716,
+      "sha256": "320e8d930b93b2fc353cb17790cd09ec0e41df561d41f75e622b3ff8576db60e"
+    },
+    {
+      "sku": "AV-SH-004",
+      "asset_path": "assets/store/products/av-sh-004-blouse-lueur.webp",
+      "source_filename": "blusa_marfil_en_arquitectura_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 147688,
+      "sha256": "404c35710cccd7407eb7615816b18415e4c4a8220dff63be4a2bab3ff12abbf5"
+    },
+    {
+      "sku": "AV-SH-005",
+      "asset_path": "assets/store/products/av-sh-005-chemise-trait.webp",
+      "source_filename": "camisa_a_rayas_en_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 214716,
+      "sha256": "dc2cc89daac5788f4a9b761d812a333d18c47753fa90b5fd326d519bffb17132"
+    },
+    {
+      "sku": "AV-PT-002",
+      "asset_path": "assets/store/products/av-pt-002-pantalon-arc.webp",
+      "source_filename": "pantalón_arc_en_arquitectura_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 192972,
+      "sha256": "aa1f45d2abd49d84fcac939974bdfe4402cbfb34a75e6af8c3e5928759bb351e"
+    },
+    {
+      "sku": "AV-PT-004",
+      "asset_path": "assets/store/products/av-pt-004-pantalon-plisse.webp",
+      "source_filename": "pantalón_plisado_en_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 171518,
+      "sha256": "878c84b39fd9c21615c063bdd7abe0bd5fe1e70bc65f174d85aa214cf15df29d"
+    },
+    {
+      "sku": "AV-PT-005",
+      "asset_path": "assets/store/products/av-pt-005-pantalon-studio.webp",
+      "source_filename": "pantalón_studio_en_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 152850,
+      "sha256": "d5004d95c00bfb22157f0bcdeb22a28206654ad1df4a1702d72fe8246722b7e6"
+    },
+    {
+      "sku": "AV-AC-003",
+      "asset_path": "assets/store/products/av-ac-003-ceinture-ligne.webp",
+      "source_filename": "cinturón_negro_sobre_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 194636,
+      "sha256": "8e8d1884f5225ae822a0a2d77ddcd5a5108c9d3dffc96ce14614eecd8bcf48ac"
+    },
+    {
+      "sku": "AV-AC-004",
+      "asset_path": "assets/store/products/av-ac-004-echarpe-brume.webp",
+      "source_filename": "bufanda_marfil_sobre_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 258680,
+      "sha256": "c875490696283d2c2acca6b4b1f0c8dd36a4ee93a78432eb8cdd56091b12fa4e"
+    },
+    {
+      "sku": "AV-AC-005",
+      "asset_path": "assets/store/products/av-ac-005-pochette-atelier.webp",
+      "source_filename": "pochette_negra_sobre_concreto_brutalista.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 225678,
+      "sha256": "375bfc9a611de553015b2da313dd19d3e98d3abb8602a584ba2a66d81d585612"
+    }
+  ]
+}
